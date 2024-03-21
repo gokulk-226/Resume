@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Menu</title>
+  <style>
+    body {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      background-color:dodgerblue;
+      color:black;
+      width: 400px;
+      padding-top: 20px;
+      position: sticky;
+      top: 0;
+      height: 97vh;
+    }
+    .sidebar img {
+      display:block;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      font-size: large;
+      text-align:center;
+    }
+    .menu li {
+      margin-bottom: 10px;
+    }
+    .menu a {
+      color:white;
+      font-family:fantasy;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+    }
+    .menu a:hover {
+       color:black;
+    }
+    .content {
+      flex: 1;
+      padding:150px;
+      overflow-y: auto;
+    }
+    .styled-table {
+      border: 1px solid black;
+      height:20px;
+    }
+    .styled-table th{
+      border: 1px solid black;
+      background-color:dodgerblue;
+      color:white;
+      padding: 8px;
+      width: 300px;
+      text-align: center;
+    }
+    .styled-table td {
+      border: 1px solid black;
+      padding: 8px;
+      width: 300px;
+      text-align: center;
+    }
+    h1{color:dodgerblue;}
+    hr{width:800px}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="D:\WEB\IMG-20230131-WA0013.jpg" alt="Profile Picture">
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#objective">Objective</a></li>
+        <li><a href="#education">Education Details</a></li>
+        <li><a href="#domain">Domain</a></li>
+        <li><a href="#interest">Area of Interest</a></li>
+        <li><a href="#programming">Programming Language</a></li>
+        <li><a href="#paper">Paper Presentation</a></li>
+        <li><a href="#collaboration">Industry Collaboration</a></li>
+        <li><a href="#personal">Personal Details</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div style="padding:100px" id="about">
+      <h1>About</h1>
+      <p>GOKUL K</p>
+    </div>
+    <div style="padding:350px">
+    </div>
+    <hr>
+  
+    <div style="padding:100px" id="objective">
+      <h1>Objective</h1>
+      <p>To be committed and efficient in my work and to enhance the growth of the organization by
+        improving and applying my competency at work.</p>
+        </div>
+        <div style="padding:350px">
+        </div>
+        <hr>
+      
+        <div style="padding:100px" id="education">
+      <h1>Education Details</h1>
+      <table class="styled-table">
+        <tr>
+            <th>Name of the Degree</th>
+            <th> Name of the Institute</th>
+            <th>Year of Passing</th>
+            <th> CGPA/Percentage</th>
+        </tr>
+        <tr>
+            <td><center>B.Tech IT</center></td>
+            <td><center>Kongu Engineering College, Erode</center></td>
+            <td><center>2026 (Expected)</center></td>
+            <td><center>7.9 (still 2<sup>nd</sup> Sem)</center></td>
+        </tr>
+        <tr>
+            <td><center>HSC</center></td>
+            <td><center>Government Higher secondary School, Pachal</center></td>
+            <td><center>2022</center></td>
+            <td><center>88%</center></td>
+        </tr>
+        <tr>
+            <td><center>SSLC</center></td>
+            <td><center>Government Higher secondary School, Pachal</center></td>
+            <td><center>2020</center></td>
+            <td><center>88%</center></td>
+        </tr>
+    </table>
+    </div>
+    <div style="padding:350px">
+    </div>
+    <hr>
+      
+    <div style="padding:100px" id="domain">
+      <h1>Domain</h1>
+      <p>Web Development</p>
+      </div>
+      <div style="padding:330px">
+      </div>
+      <hr>
+      
+      <div style="padding:100px" id="interest">
+      <h1>Area of Interest</h1>
+      <ul type="circle"><li>Database Management System</li><br><li>Cloud Computing</li></ul>
+      </div>
+      <div style="padding:330px">
+      </div>
+    <hr>
+    <div style="padding:100px" id="programming">
+      <h1>Programming Language</h1>
+      <ul type="square"><li>C</li><br><li>C++</li><br><li>JAVA</li><br><li>PYTHON</li></ul>
+    </div>
+    <div style="padding:330px">
+    </div>
+  <hr>
+  <div style="padding:100px" id="paper">
+      <h1>Paper Presentation</h1>
+      <ul>
+        <li>In 2023, I delivered a paper presentation on <strong>'5G Technology'</strong> at Kongu Engineering College as part of the 'Sign Up' competition.</li>
+      </ul>
+      </div>
+      <div style="padding:330px">
+      </div>
+    <hr>
+      
+    <div style="padding:100px" id="collaboration">
+      <h1>Industry Collaboration</h1>
+      <ol>
+        <li>I completed my Industrial Vist at <strong>ATEES</strong> Software Limited in Kerala at 2023.</li><br>
+        <li>I completed my in-plant training at Phoenix 3Dm in 2023, gaining valuable experience in <strong>Web development.</strong></li>
+      </ol>
+    </div>
+    <div style="padding:330px">
+    </div>
+    <hr>
+      
+    <div style="padding:100px" id="personal">
+      <h1>Personal Details</h1>
+        <p><b>Date Of Birth : </b>Oct 24,2004</p>
+        <p><b>Father Name   : </b>Kandasamy N</p>
+        <p><b>Mother Name   : </b> Umarani A</p>
+        <p><b>Address       : </b>8/57, Society Street, Kadanthapatty, Namakkal 637018.</p>
+         
+      </div>
+      <div style="padding:330px">
+      </div>
+      <hr>
+      <div style="padding:100px" id="contact">
+        <h1>Contact</h1>
+        <p><b>Gmail Id     : </b>gokulk.22it@kongu.edu</p>
+        <p><b>Phone Number : </b>9342844623</p>
+        <p><b><u>Online Platforms</u>:</b></p>
+        <p><b>LinkedIn Profile   : </b><a href="https://www.linkedin.com/in/gokul-k-8b3567259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Click here!</a></p>
+        <p><b>Hackerrank Profile :</b><a href="https://www.hackerrank.com/profile/gokulk_22it">Click here!</a></p>
+      </div>
+      <div style="padding:330px">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
